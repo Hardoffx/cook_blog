@@ -1,0 +1,261 @@
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />-->
+<!--<link rel="stylesheet" href="https://bootstraptema.ru/stuff/0-0-0-357-20" />-->
+<!--<script type="text/javascript" src="https://bootstraptema.ru/plugins/jquery/jquery-1.11.3.min.js"></script>-->
+<!--<script type="text/javascript" src="https://bootstraptema.ru/plugins/2015/b-v3-3-6/bootstrap.min.js"></script>-->
+
+
+
+<!--<div class="container">-->
+<!--    <div class="row">-->
+
+<!--<div class="col-md-12">-->
+<!--    <div id="myCarousel" class="carousel slide carousel-slideFullIn" data-ride="carousel">-->
+<!--         <ol class="carousel-indicators">-->
+<!--             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>-->
+<!--             <li data-target="#myCarousel" data-slide-to="1"></li>-->
+<!--             <li data-target="#myCarousel" data-slide-to="2"></li>-->
+<!--         </ol>-->
+<!--         <div class="carousel-inner">-->
+<!--             {% for photo in photos %}-->
+<!--                {% if forloop.first %}-->
+<!--                 <div class="item active">-->
+<!--                     <img src="{{ photo.image.url }}" alt="Адаптивные элементы для сайта">-->
+<!--                     <div class="container">-->
+<!--                         <div class="carousel-caption">-->
+<!--                            <p style="color:#fff;">Текст...</p>-->
+<!--                             <p><a class="btn btn-lg btn-opacity" href="/" role="button">Смотреть</a></p>-->
+<!--                         </div>-->
+<!--                     </div>-->
+<!--                 </div>-->
+<!--                {% endif %}-->
+<!--             {% endfor %}-->
+<!--             <div class="item">-->
+<!--                 <img src="/static/img/categories/single-post/single-post-hero.jpg" alt="Адаптивный дизайн для сайта">-->
+<!--                 <div class="container">-->
+<!--                     <div class="carousel-caption">-->
+<!--                        <p style="color:#fff;">Текст...</p>-->
+<!--                         <p><a class="btn btn-lg btn-opacity" href="/publ" role="button">Смотреть</a></p>-->
+<!--                     </div>-->
+<!--                 </div>-->
+<!--             </div>-->
+<!--             <div class="item">-->
+<!--                <img src="/static/img/categories/single-post/single-post-hero.jpg" alt="Адаптивные шаблоны для сайта">-->
+<!--                 <div class="container">-->
+<!--                     <div class="carousel-caption">-->
+<!--                        <p style="color:#fff;">Текст...</p>-->
+<!--                         <p><a class="btn btn-lg btn-opacity" href="/" role="button">Смотреть</a></p>-->
+<!--                     </div>-->
+<!--                 </div>-->
+<!--             </div>-->
+<!--         </div>-->
+<!--         <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>-->
+<!--         <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--</div></div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<section class="hero">-->
+<!--<div class="hero__slider owl-carousel">-->
+<!--    <div class="hero__item">-->
+<!--        <div class="container-fluid">-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-6 p-0">-->
+<!--                    {% for post in post_list %}-->
+<!--                        {% if forloop.first %}-->
+<!--                        <div class="hero__inside__item hero__inside__item&#45;&#45;wide set-bg"-->
+<!--                            data-setbg="{{ post.image.url }}">-->
+<!--                            <div class="hero__inside__item__text">-->
+<!--                                <div class="hero__inside__item&#45;&#45;meta">-->
+<!--                                    <span>08</span>-->
+<!--                                    <p>Aug</p>-->
+<!--                                </div>-->
+<!--                                <div class="hero__inside__item&#45;&#45;text">-->
+<!--                                    <ul class="label">-->
+<!--                                        <li>Vegan</li>-->
+<!--                                        <li>Desserts</li>-->
+<!--                                    </ul>-->
+<!--                                    <h4>Vegan White Peach Mug Cobbler With CardamomVegan<br /> White Peach Mug-->
+<!--                                        Cobbler With Cardamom</h4>-->
+<!--                                    <ul class="widget">-->
+<!--                                        <li>by <span>Admin</span></li>-->
+<!--                                        <li>3 min read</li>-->
+<!--                                        <li>20 Comment</li>-->
+<!--                                    </ul>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        {% endif %}-->
+<!--                    {% endfor %}-->
+<!--                </div>-->
+<!--                <div class="col-lg-3 col-md-6  p-0">-->
+<!--                    {% for photo in photos %}-->
+<!--                        {% if forloop.counter == 2 %}-->
+<!--                        <div class="hero__inside__item hero__inside__item&#45;&#45;small set-bg"-->
+<!--                            data-setbg="{{ photo.image.url }}">-->
+<!--                            <div class="hero__inside__item__text">-->
+<!--                                <div class="hero__inside__item&#45;&#45;meta">-->
+<!--                                    <span>08</span>-->
+<!--                                    <p>Aug</p>-->
+<!--                                </div>-->
+<!--                                <div class="hero__inside__item&#45;&#45;text">-->
+<!--                                    <ul class="label">-->
+<!--                                        <li>Vegan</li>-->
+<!--                                        <li>Desserts</li>-->
+<!--                                    </ul>-->
+<!--                                    <h5>How to Make a Milkshake With Any <br />Ice Cream, Any Toppings...</h5>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        {% endif %}-->
+<!--                    {% endfor %}-->
+
+<!--                    {% for photo in photos %}-->
+<!--                        {% if forloop.counter == 3 %}-->
+<!--                        <div class="hero__inside__item hero__inside__item&#45;&#45;small set-bg"-->
+<!--                            data-setbg="{{ photo.image.url }}">-->
+<!--                            <div class="hero__inside__item__text">-->
+<!--                                <div class="hero__inside__item&#45;&#45;meta">-->
+<!--                                    <span>08</span>-->
+<!--                                    <p>Aug</p>-->
+<!--                                </div>-->
+<!--                                <div class="hero__inside__item&#45;&#45;text">-->
+<!--                                    <ul class="label">-->
+<!--                                        <li>Vegan</li>-->
+<!--                                        <li>Desserts</li>-->
+<!--                                    </ul>-->
+<!--                                    <h5>Vintage Copper Preserve Pan with <br />Brass Handles, Mid 19th Century</h5>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        {% endif %}-->
+<!--                    {% endfor %}-->
+<!--                    </div>-->
+
+<!--                <div class="col-lg-3 col-md-6  p-0">-->
+<!--                    {% for photo in photos %}-->
+<!--                        {% if forloop.counter == 4 %}-->
+<!--                        <div class="hero__inside__item set-bg"-->
+<!--                             data-setbg="{{ photo.image.url }}">-->
+<!--                            <div class="hero__inside__item__text">-->
+<!--                                <div class="hero__inside__item&#45;&#45;meta">-->
+<!--                                    <span>08</span>-->
+<!--                                    <p>Aug</p>-->
+<!--                                </div>-->
+<!--                                <div class="hero__inside__item&#45;&#45;text">-->
+<!--                                    <ul class="label">-->
+<!--                                        <li>Vegan</li>-->
+<!--                                        <li>Desserts</li>-->
+<!--                                    </ul>-->
+<!--                                    <h5>Marinated Lentil Salad with Zucch <br />ini and Tomatoes</h5>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        {% endif %}-->
+<!--                    {% endfor %}-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="hero__item">-->
+<!--        <div class="container-fluid">-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-6 p-0">-->
+<!--                    {% for photo in photos %}-->
+<!--                        {% if forloop.counter == 4 %}-->
+<!--                        <div class="hero__inside__item hero__inside__item&#45;&#45;wide set-bg"-->
+<!--                            data-setbg="{{ photo.image.url }}">-->
+<!--                            <div class="hero__inside__item__text">-->
+<!--                                <div class="hero__inside__item&#45;&#45;meta">-->
+<!--                                    <span>08</span>-->
+<!--                                    <p>Aug</p>-->
+<!--                                </div>-->
+<!--                                <div class="hero__inside__item&#45;&#45;text">-->
+<!--                                    <ul class="label">-->
+<!--                                        <li>Vegan</li>-->
+<!--                                        <li>Desserts</li>-->
+<!--                                    </ul>-->
+<!--                                    <h4>Vegan White Peach Mug Cobbler With CardamomVegan<br /> White Peach Mug-->
+<!--                                        Cobbler With Cardamom</h4>-->
+<!--                                    <ul class="widget">-->
+<!--                                        <li>by <span>Admin</span></li>-->
+<!--                                        <li>3 min read</li>-->
+<!--                                        <li>20 Comment</li>-->
+<!--                                    </ul>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        {% endif %}-->
+<!--                    {% endfor %}-->
+<!--                </div>-->
+<!--                <div class="col-lg-3 col-md-6 p-0">-->
+<!--                    <div class="hero__inside__item hero__inside__item&#45;&#45;small set-bg"-->
+<!--                        data-setbg="/static/img/hero/hero-3.jpg">-->
+<!--                        <div class="hero__inside__item__text">-->
+<!--                            <div class="hero__inside__item&#45;&#45;meta">-->
+<!--                                <span>08</span>-->
+<!--                                <p>Aug</p>-->
+<!--                            </div>-->
+<!--                            <div class="hero__inside__item&#45;&#45;text">-->
+<!--                                <ul class="label">-->
+<!--                                    <li>Vegan</li>-->
+<!--                                    <li>Desserts</li>-->
+<!--                                </ul>-->
+<!--                                <h5>How to Make a Milkshake With Any <br />Ice Cream, Any Toppings...</h5>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="hero__inside__item hero__inside__item&#45;&#45;small set-bg"-->
+<!--                        data-setbg="/static/img/hero/hero-2.jpg">-->
+<!--                        <div class="hero__inside__item__text">-->
+<!--                            <div class="hero__inside__item&#45;&#45;meta">-->
+<!--                                <span>08</span>-->
+<!--                                <p>Aug</p>-->
+<!--                            </div>-->
+<!--                            <div class="hero__inside__item&#45;&#45;text">-->
+<!--                                <ul class="label">-->
+<!--                                    <li>Vegan</li>-->
+<!--                                    <li>Desserts</li>-->
+<!--                                </ul>-->
+<!--                                <h5>Vintage Copper Preserve Pan with <br />Brass Handles, Mid 19th Century</h5>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-3 col-md-6 p-0">-->
+<!--                    <div class="hero__inside__item set-bg"-->
+<!--                         data-setbg="/static/img/hero/hero-4.jpg">-->
+<!--                        <div class="hero__inside__item__text">-->
+<!--                            <div class="hero__inside__item&#45;&#45;meta">-->
+<!--                                <span>08</span>-->
+<!--                                <p>Aug</p>-->
+<!--                            </div>-->
+<!--                            <div class="hero__inside__item&#45;&#45;text">-->
+<!--                                <ul class="label">-->
+<!--                                    <li>Vegan</li>-->
+<!--                                    <li>Desserts</li>-->
+<!--                                </ul>-->
+<!--                                <h5>Marinated Lentil Salad with Zucch <br />ini and Tomatoes</h5>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--</section>-->
